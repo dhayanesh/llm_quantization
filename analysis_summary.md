@@ -150,6 +150,8 @@ This analysis compares the performance and accuracy of Llama3 8B model across di
 
 **Best:** INT8-W8A8 (82.4% normalized)
 
+In some lm_eval tasks, the quantized models marginally outperform the original model. This is a known and expected phenomenon caused by evaluation variance and quantization-induced regularization effects. The observed differences are small and within normal benchmark noise, and should not be interpreted as a strict quality improvement over the full-precision model.
+
 ---
 
 ## Overall Performance-Accuracy Trade-off Analysis
