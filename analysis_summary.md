@@ -51,7 +51,7 @@ This analysis compares the performance and accuracy of Llama3 8B model across di
 **Key Observations:**
 - INT8-W8A16-RTN has the fastest load time (37% improvement)
 - INT8 configurations generally load faster than INT4
-- Model memory remains similar (~44 GB) across all configurations - quantization primarily affects compute, not memory footprint in this setup
+- Model memory remains similar (~44 GB) across all configurations - vLLM aggresively pre-allocates space for KV Cache
 - Load time improvements come from smaller weight files and optimized loading paths
 
 ### 2. Inference Performance
