@@ -24,7 +24,7 @@ This project provides tools for quantizing large language models (LLMs) using va
 ├── compress.py                    # Unified compression script
 ├── download_model.py              # Download base model from HuggingFace
 ├── benchmark.py                   # Performance benchmarking script
-├── analyze.py                     # Model checkpoint and runtime inspection
+├── inspect_model.py               # Model checkpoint and runtime inspection
 ├── vllm_test.py                   # Simple vLLM inference test
 ├── run_benchmark.sh               # Batch benchmarking script
 ├── run_benchmark_lm-eval.sh       # Batch evaluation script
@@ -144,7 +144,7 @@ Results are saved to `eval_results/` directory.
 Inspect a quantized model checkpoint:
 
 ```bash
-python analyze.py
+python inspect_model.py (or run the script for all all models)
 ```
 
 This script:
