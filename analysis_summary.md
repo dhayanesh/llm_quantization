@@ -54,7 +54,7 @@ This analysis compares the performance and accuracy of Llama3 8B model across di
 - Model memory remains similar (~44 GB) across all configurations - vLLM aggresively pre-allocates space for KV Cache
 - Load time improvements come from smaller weight files and optimized loading paths
 
-### 2. Inference Performance
+### 2. Inference Performance (5 Prompts)
 
 | Model | Seq Latency (s) | Batch Latency (s) | Throughput (tok/s) | Throughput vs Baseline | Speedup |
 |-------|----------------|-------------------|-------------------|----------------------|---------|
