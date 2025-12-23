@@ -1,4 +1,4 @@
-# LLM Quantization Benchmarking Project
+# LLM Quantization Benchmarking
 
 This project provides tools for quantizing large language models (LLMs) using various quantization schemes and benchmarking their performance. It supports multiple quantization methods including FP8, INT8, and INT4 quantization with different weight and activation configurations.
 
